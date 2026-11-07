@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>News24</title>
+
+    <!-- bootstrap 5 cdn link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- navbar section -->
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark news-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">News24</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/latest_news.html"
+                  >Latest Global News</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/business.html">Business</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/sport.html">Sport</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Regional
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Asia</a></li>
+                  <li><a class="dropdown-item" href="#">Europe</a></li>
+                  <li><a class="dropdown-item" href="#">Africa</a></li>
+                  <li><a class="dropdown-item" href="#">North America</a></li>
+                  <li><a class="dropdown-item" href="#">South America</a></li>
+                  <li><a class="dropdown-item" href="#">Oceania</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <a
+                href="../pages/search.html"
+                class="btn btn-outline-success"
+                type="submit"
+              >
+                Search
+              </a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- main section -->
+    <main class="container-fluid">
+      <div class="row">
+        <!-- Left section -->
+        <div class="col-md-12 col-lg-9 pb-5">
+          <!-- News Detail Section -->
+          <div class="news details-section">
+            <!-- News Heading -->
+            <h2 class="text-center py-3">This is a News headline</h2>
+
+            <!-- image section -->
+            <div
+              class="d-flex flex-column justify-content-center align-items-center py-2"
+            >
+              <img class="w-75" height="350" src="../images/img1.jpeg" alt="" />
+              <small class="text-muted py-2"
+                >Published on: 2026-06-15 | Author: John Doe</small
+              >
+            </div>
+
+            <!-- news text -->
+            <div class="py-2">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo voluptatem corrupti expedita voluptate iusto. Ratione
+                veritatis sequi impedit architecto. Optio voluptates
+                exercitationem rerum similique, tenetur tempora deleniti autem
+                assumenda consequuntur delectus voluptatem enim fugiat dolorem
+                amet omnis voluptate commodi et at nulla vel ut distinctio, ab
+                incidunt mollitia? Est, quas?
+              </p>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                ex quia reprehenderit dolore fugiat quod eos eum. Recusandae,
+                omnis provident? Beatae velit vero alias dolorem eum illo,
+                cupiditate deserunt harum repudiandae odio deleniti! Molestias
+                optio placeat ut odio sint deleniti aliquam sed tenetur harum
+                nulla ab numquam qui, nostrum maxime, maiores ducimus
+                cupiditate, nam possimus. Magnam blanditiis nam adipisci atque
+                officia illum officiis magni hic quia ducimus, aliquid sequi
+                minus maiores voluptate molestiae consequuntur qui porro dolore
+                ipsa odio, distinctio obcaecati. Quisquam possimus ea,
+                consectetur quia eligendi, corporis, deleniti aspernatur
+                necessitatibus quos error iste officia ad nostrum amet? Iusto,
+                placeat?
+              </p>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam,
+                nisi perferendis eligendi excepturi rem iste tempore atque alias
+                nostrum molestiae.
+              </p>
+            </div>
+          </div>
+
+          <!-- Tags -->
+          <div class="py-2">
+            <h4>Tags:</h4>
+            <div class="fs-5">
+              <span class="badge text-bg-primary">Asia</span>
+              <span class="badge text-bg-secondary">Technology</span>
+              <span class="badge text-bg-success">AI</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="col-md-12 col-lg-3 bg-body-tertiary p-0">
+          <div
+            class="d-flex justify-content-center align-items-center bg-success-subtle py-5"
+          >
+            <h4 class="text-danger">Ad here</h4>
+          </div>
+
+          <!-- Similar News Section -->
+          <div class="p-2">
+            <h5 class="py-2">Similar News</h5>
+            <div class="d-flex flex-column">
+              <a href="../pages/news_detail.html" class="card mb-3 small-card">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="../images/img3.avif"
+                      class="img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <div class="card-text">This is a News Headline.</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              <a href="../pages/news_detail.html" class="card mb-3 small-card">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="../images/img2.avif"
+                      class="img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <div class="card-text">This is a News Headline.</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              <a href="../pages/news_detail.html" class="card mb-3 small-card">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="../images/img3.avif"
+                      class="img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <div class="card-text">This is a News Headline.</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer section -->
+    <footer class="d-flex justify-content-center align-items-center py-3">
+      <p class="text-center text-white m-0">
+        &copy; 2026 News24. All rights reserved.
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

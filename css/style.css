@@ -1,0 +1,93 @@
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+main {
+  flex: 1;
+}
+
+.news-navbar {
+  /* Dark Navy Blue */
+  background-color: #14213d;
+}
+
+/* Brand */
+.news-navbar .navbar-brand {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* Nav Links */
+.news-navbar .nav-link {
+  /* Light Slate Gray */
+  color: #cbd5e1;
+}
+
+/* Hover */
+.news-navbar .nav-link:hover {
+  /* Light Blue */
+  color: #60a5fa;
+}
+
+/* Active */
+/* .news-navbar .nav-link.active {
+  color: #60a5fa;
+  font-weight: 600;
+} */
+
+a {
+  text-decoration: none;
+}
+
+.main-news-card {
+  /* Light Gray */
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.main-news-card img {
+  width: 100%;
+  height: 12rem;
+  border-radius: 0.5rem;
+}
+
+.small-card img {
+  width: 100%;
+  height: 250px;
+}
+
+.details-section img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+footer {
+  /* Dark Navy Blue */
+  background-color: #14213d;
+}
+
+/* Medium devices (≥768px) */
+@media (min-width: 768px) {
+  .details-section img {
+    height: 300px;
+  }
+  .small-card img {
+    height: 200px;
+  }
+}
+
+/* Large devices (≥992px) */
+@media (min-width: 992px) {
+  .details-section img {
+    height: 300px;
+  }
+  .small-card img {
+    height: 80px;
+  }
+}
