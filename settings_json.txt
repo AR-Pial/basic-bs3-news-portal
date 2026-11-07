@@ -21,3 +21,32 @@ Preferences: Open User Settings (JSON)
     "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
 
+
+
+
+extentions:
+
+Live Server
+
+Browser-এ local development server চালানোর জন্য।
+
+
+Auto Close Tag
+
+HTML opening tag লিখলে closing tag তৈরি করে।
+
+
+Auto Rename Tag
+
+একটি HTML tag পরিবর্তন করলে matching tag-ও update করে।
+
+
+Prettier – Code formatter
+
+Code formatting consistent রাখে।
+
+
+IntelliSense for CSS class names in HTML
+
+HTML-এর মধ্যে CSS class suggestions দেয়।
+
