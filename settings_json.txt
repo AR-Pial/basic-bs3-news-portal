@@ -1,0 +1,23 @@
+Ctrl + ,
+Or
+Press Ctrl + Shift + P, then search:
+Preferences: Open User Settings (JSON)
+
+
+{
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "emmet.triggerExpansionOnTab": true
+}
+
+{
+    "editor.formatOnPaste": true,
+    "editor.autoIndent": "full",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
+

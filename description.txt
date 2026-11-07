@@ -1,0 +1,3 @@
+**Description:**
+
+As a web developer I want to create a responsive and modern news portal layout. Use Bootstrap 5.3 utility classes and components as structural building blocks, and organize them into clean, modular sections in VS Code. Build and refine the HTML5 templates and CSS stylesheets; integrate dynamic cards, navigation bars, and grid layouts into the news portal project. Deliver the well-structured source code and files; verify that the web pages render correctly across devices and all UI components function smoothly.
